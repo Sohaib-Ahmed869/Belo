@@ -115,12 +115,12 @@ const Dashboard = () => {
   return (
     <div className="py-8 w-full  px-10 relative">
       <h1 className="text-3xl font-semi bold text-left">Dashboard</h1>
-      <p className="text-gray-500 text-left">
+      <p className="text-gray-500 text-left my-5">
         Below is the summary of your team activity
       </p>
-      <div className="flex flex-row gap-5 mt-5">
+      <div className="flex flex-row gap-5">
         {data.map((item) => (
-          <div className="flex  w-1/4 p-5 rounded-lg shadow-md items-center gap-5">
+          <div className="flex  w-1/4 p-5 rounded-lg shadow-md items-center gap-5 border border-gray-100">
             <div>
               <img
                 src={dashboard}

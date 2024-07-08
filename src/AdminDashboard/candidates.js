@@ -63,11 +63,11 @@ const Candidates = () => {
   return selectedCandidate ? (
     <div className="p-20 bg-white h-screen w-full overflow-y-auto z-1"></div>
   ) : (
-    <div className="p-10 bg-white h-screen w-full overflow-y-auto z-1">
+    <div className="py-8 w-full  px-10 relative">
       <div className="flex justify-between">
         <div>
           <h1 className="text-3xl font-semi bold text-left">Candidates</h1>
-          <p className="text-gray-500 text-left">
+          <p className="text-gray-500 text-left my-5">
             Below is the summary of all candidates
           </p>
         </div>

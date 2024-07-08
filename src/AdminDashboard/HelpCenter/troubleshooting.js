@@ -12,7 +12,7 @@ const faqs = [
 
 const TroubleShooting = () => {
   return (
-    <div className="py-8 mx-auto w-full max-w-6xl px-10 relative">
+    <div className="py-8 w-full  px-10 relative">
       <h1 className="text-3xl mb-4">Terms & Access</h1>
       <FAQ faqs={faqs} />
       <ContactForm />

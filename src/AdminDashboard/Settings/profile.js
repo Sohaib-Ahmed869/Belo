@@ -57,7 +57,7 @@ const Profile = () => {
 
   return (
     <div className="py-8 mx-auto w-full  px-10 relative">
-      <h1 className="text-2xl mb-4">Settings</h1>
+      <h1 className="text-3xl mb-4">Settings</h1>
       <p className="text-gray-500">
         Manage your account settings and preferences
       </p>

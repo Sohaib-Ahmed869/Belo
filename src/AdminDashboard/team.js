@@ -38,16 +38,16 @@ const Team = () => {
   const [show, setShow] = useState(false);
 
   return (
-    <div className="py-8 mx-auto w-full max-w-6xl px-10 relative">
+    <div className="py-8 w-full  px-10 relative">
       <Button
         className="flex absolute top-10 right-12 text-sm border border-gray-500 rounded-md px-2 py-1"
         onClick={() => setShow(true)}
       >
         <p className="text-center">+ Add a User</p>
       </Button>
-      <h1 className="text-2xl">Team</h1>
-      <p className="text-gray-500 mt-5">Team Members</p>
-      <div className="pt-5 p-5 w-full shadow rounded-xl mt-5 border border-gray-100">
+      <h1 className="text-3xl">Team</h1>
+      <p className="text-gray-500 my-5">Team Members</p>
+      <div className="pt-5 p-5 w-full shadow rounded-xl border border-gray-100">
         <p className="pl-2 font-semibold">User Permissions</p>
         <table className="w-full mt-2">
           <tr className="text-left text-sm text-gray-500">

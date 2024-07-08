@@ -47,7 +47,7 @@ const apps = [
 
 const UsingBelo = () => {
   return (
-    <div className="py-8 mx-auto w-full max-w-6xl px-10 relative">
+    <div className="py-8 w-full  px-10 relative">
       <h1 className="text-3xl mb-4">Integration</h1>
       <h2 className="text-xl mb-4">{content.title}</h2>
       <p className="text-gray-700">{content.description}</p>
